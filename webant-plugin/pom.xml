@@ -13,7 +13,7 @@
 
     <artifactId>webant-plugin</artifactId>
     <packaging>jar</packaging>
-    <name>webant site pom</name>
+    <name>webant plugin pom</name>
 
     <dependencies>
         <dependency>
@@ -92,6 +92,5 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 </project>
