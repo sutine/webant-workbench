@@ -28,7 +28,6 @@
         <root level="INFO" includeLocation="true">
             <appender-ref ref="FILE"/>
             <appender-ref ref="CONSOLE"/>
-            <appender-ref ref="STDERR" level="ERROR"/>
         </root>
 
         <logger name="java.sql.Connection" level="ERROR" />

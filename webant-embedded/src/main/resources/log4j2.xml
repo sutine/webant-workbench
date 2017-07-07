@@ -27,8 +27,7 @@
     <Loggers>
         <root level="INFO" includeLocation="true">
             <appender-ref ref="FILE"/>
-            <appender-ref ref="CONSOLE"/>
-            <appender-ref ref="STDERR" level="ERROR"/>
+            <!--<appender-ref ref="CONSOLE"/>-->
         </root>
 
         <logger name="java.sql.Connection" level="ERROR" />
