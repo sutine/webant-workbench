@@ -1,10 +1,12 @@
 package org.webant.server.app;
 
+import org.webant.worker.app.WorkerServer;
+
 /**
  * run a worker server to debug
  */
 public class WebantServer {
     public static void main(String[] args) {
-        org.webant.worker.app.WorkerServer.main(args);
+        WorkerServer.main(args);
     }
 }

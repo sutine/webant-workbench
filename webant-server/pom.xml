@@ -18,13 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>org.webant</groupId>
-            <artifactId>webant-worker</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.webant</groupId>
-            <artifactId>webant-extension</artifactId>
+            <artifactId>webant-plugin</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
