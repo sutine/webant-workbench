@@ -8,11 +8,14 @@
     <artifactId>webant-workbench</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>webant pom</name>
+    <name>webant workbench pom</name>
 
     <modules>
+		<module>webant-embedded</module>
+		<module>webant-server</module>
+		<module>webant-distribution</module>
 		<module>webant-plugin</module>
-        </modules>
+    </modules>
 
     <properties>
         <encoding>UTF-8</encoding>
@@ -24,7 +27,6 @@
         <PermGen>64m</PermGen>
         <MaxPermGen>512m</MaxPermGen>
         <CodeCacheSize>512m</CodeCacheSize>
-
         <scala.version>2.11.8</scala.version>
     </properties>
 

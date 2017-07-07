@@ -2,7 +2,7 @@
 
     <Properties>
         <Property name="LOG_HOME">./logs</Property>
-        <Property name="LOG_FILE">webant-plugin.log</Property>
+        <Property name="LOG_FILE">webant-server.log</Property>
     </Properties>
 
     <Appenders>
